@@ -1,0 +1,128 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 30px 30px 30px;
+    background-color: #eee2dc;
+}
+#tablica h1 {
+    color:#ac3b61;
+    text-transform: uppercase;
+}
+#tablica h2 {
+    color:#123c69;
+    border-bottom: 1px solid darkgray;
+}
+#tablica h1, #tablica h2, #tablica table {
+    width: 430px;
+}
+#tablica table {
+    border-collapse: collapse;
+    background-color:#f7f0ec;
+}
+#tablica th {
+    font-size: 20px;
+    background-color: #123c69;
+    text-transform: uppercase;
+    color:#eee2dc;
+    text-align: center;
+    height:40px;
+}
+#tablica td {
+    border: 1px solid darkgray;
+}
+#tablica tr:nth-child(1), #tablica tr:nth-child(12) {
+    font-weight: bold;
+    background-color: #dbd6d3;
+}
+
+/*------------------------------------------------------------------------------------------------------------*/
+#cvijet {
+    margin: 50px 0;
+    width: 400px;
+    height: 400px;
+}
+#cvijet h1 {
+    color:#ac3b61;
+    text-transform: uppercase;
+}
+
+#cvijet table{
+    width: 200px;
+    height: 200px;
+    float: left;
+    border: 2px solid darkgray;
+    box-sizing: border-box;
+}
+#prvi{
+    background-color: white;
+    border-radius: 30px 70px 0 70px;
+}
+#drugi{
+    background-color: #306f80;
+    border-radius: 70px 30px 70px 0;
+}
+#treci{
+    background-color: #d5d9c2;
+    border-radius: 70px 0 70px 30px;
+}
+#cetvrti{
+    background-color: #40a9a4;
+    border-radius: 0 70px 30px 70px;
+}
+/*------------------------------------------------------------------------------------------------------------*/
+#linkovi {
+    margin: 30px 0;
+    clear: both;
+}
+#linkovi ul{
+    list-style: none;
+    padding: 0;
+}
+
+#linkovi li {
+    width: 190px;
+    padding: 1px;
+    background-color: #f7f0ec;
+    border-bottom: 1px solid darkgray;
+    border-top: 1px solid darkgray;
+    border-left: 1px solid darkgray;
+    border-right: 1px solid darkgray;
+    list-style: none;
+}
+
+#linkovi li a {
+    color:#123c69;
+    text-transform: uppercase;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#linkovi li:first-child a:hover {
+    font-style:italic;
+}
+
+#linkovi li:nth-child(2) a:hover {
+    font-style:italic;
+}
+
+#linkovi li:nth-child(3) a:hover {
+    font-style:italic;
+}
+
+#linkovi li:nth-child(4) a:hover {
+    font-style:italic;
+}
+
+#linkovi li:nth-child(5) a:hover {
+    font-style:italic;
+}
+
+#linkovi h1 {
+    text-transform: uppercase;
+    color: #ac3b61;
+}
+#linkovi p {
+    text-align: justify;
+    width: 550px;
+    text-size-adjust: 15px; 
+}
